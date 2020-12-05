@@ -1,0 +1,22 @@
+# author: Ercan Atar
+# linkedin.com/in/ercanatar/
+#######################################################
+# String oluşturmak için 3 farklı yol mevcut;
+print('tek tırnaklı')
+print("çift tırnaklı")
+print("""üç çift tırnaklı""")
+print('''üç tek tırnaklı''')
+print("--------- \ detayı ---------")
+print("Ercan'ın bugün dersi var.")
+print('Ercan\'ın yarında dersi var.') # " \ " işareti ile tek tırnakla ilgili hatalardan kurtulabilirsin.
+print("----------------------------")
+#
+degisken="bir cümle, bir değişkene atanabilir."
+print(degisken)
+# String indeksleme ve parçalama
+# indexlerde dikkat etmen gereken; ilk harf SIFIR'ıncı indextir. Değişken diye tanımladığım cümlede
+# b:0 - i:1 - r:2 - (boşluk):3 - c:4 - ü:5 - m:6 - l:7 ...
+#
+print(degisken[0]) print(degisken[1]) print(degisken[2]) print(degisken[3]) print(degisken[4]) print(degisken[0]) print(degisken[0]) 
+print(degisken[0]) print("----------------------------")
+#########################################################
