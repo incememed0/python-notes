@@ -1,5 +1,2 @@
-from selenium import webdriver
-url="https://www.youtube.com/"
-browser=webdriver.Firefox()
-browser.get(url)
-
+liste=1,2,3
+print(type(liste))
