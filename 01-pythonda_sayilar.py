@@ -16,6 +16,8 @@ i=10
 print(i*i*i)
 i=15
 print(i)
+#
+print("2 nin 3. kuvveti: ", 2**3 )
 print("--------------") # Denklemler kurularak yazılabilir
 a=4
 b=3
@@ -45,9 +47,6 @@ a-=4
 print(a)
 a*=3
 print(a)
-#""" Yorum satırı
-için 3 tırnakda
-kullanılabilir"""
 #
 '''tek tırnaklada
 yorum yapılabiliyor'''

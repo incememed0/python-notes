@@ -41,6 +41,27 @@ liste=[3,4,5,6]
 print("liste: ",liste)
 liste.append("yedi")
 print("listeye eleman ekleme: ",liste)
+# Elemanları değiştirme
+liste[:2]=[10,11]
+print("listedeki ilk 2 eleman değiştirildi: ",liste)
+# pop metodu, listeden eleman çıkarır. (parantez içine değer girmezsen İNDEKS numarasına denk gelen elemanı çıkarır.)
+liste.pop()
+print("son eleman çıkarıldı: ",liste)
+liste.pop(3) # 3. indekste "6" var. onu çıkardık.
+print("3.indeksteki eleman çıkarıldı: ",liste)
+# sort medotu, listedeki elemanları sıralar
+liste=[5,1,13,97,33,64,23,7] # Sayı değilde kelimeler olsaydı, alfabetik sıralanırdı.
+liste.sort() # Sıralar
+print("listedeki değerler sıralanır: ",liste)
+liste.sort(reverse=True) #listeyi tersden sıralar
+print("listedeki değerler tersden sıralandı: ",liste)
+print("--------------------------------------------")
+# Liste içinde liste
+liste=[[1,2],[3,4],[5,6]]
+print(liste[1]) # [3,4]
+print(liste[1][1]) # 4
+# ağ yapıları kurduğumuz zaman iç içe listeler sıklıkla kullanılıyor.
+
 
 
 
