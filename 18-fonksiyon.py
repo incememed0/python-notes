@@ -4,6 +4,7 @@
 # lambda : Kısa bir fonksiyon işlemi için fonksiyon tanımlamak yerine,bunun için bu operatör kullanılır.
 # map : listeyi fonkiyona yönlendirir
 # filter : lambdaya benzer ama kendi içinde bir koşul ifadesi olabilir
+# return : fonksiyonun işi bittikten sonra çağırıldığı yere döndürmesidir
 def karesi(sayi): return sayi**2
 liste=[2,3,5,7,8,9,10]
 degisken=list(map(karesi,liste))
@@ -40,3 +41,20 @@ def greeting():
     hello()
 greeting()
 #
+x=50
+def test(x):
+    #global x
+    print("değer: ",x)
+    x=100
+    print("değişen deger: ",x)
+test(x)
+print(x)
+#
+x=50
+def test():
+    global x
+    print("değer: ",x)
+    x=100
+    print("değişen deger: ",x)
+test()
+print(x)
