@@ -5,8 +5,8 @@ class Sinif:
     def deger(self):
         print("sınıf içinde bir yazı")
 
-def fonksiyon():
-    print("fonksiyon çağırıldı")
+def fonksiyon(x):
+    print(f"girilen sayi: {x}")
 print("bu modülün giriş yazısıdır")
 liste=[1,2,3,4,5,6,7]
 sozluk={
