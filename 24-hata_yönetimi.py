@@ -10,15 +10,20 @@
 # print('denem'e) ---> SyntaxError
 #
 # Hata Yönetimi
-x=int(input("x: "))
-y=int(input("y: "))
-print(x+y)
 
-
-
-
+try:
+    x=int(input("x: "))
+    y=int(input("y: "))
+    print(x/y)
+except Exception as hata : # programda oluşabilicek hatalar yazılır
+    print("bir hata oluştu. sebebi: ",hata)
+else: # program hatasız çalıştırılırsa;
+    print("program çalıştı")
+finally: # program hatalı veya hatasız çalışsada çalıştırılır
+    print("try ve except çalıştırıldı")
 
 """
+---> TÜM HATALAR <---
 BaseException
  +-- SystemExit
  +-- KeyboardInterrupt
