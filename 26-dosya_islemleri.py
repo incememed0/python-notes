@@ -66,12 +66,35 @@
 #------------#------------------------------------------------------------------------------------#--------------------#
 # fonksiyon meselesi
 # with ile işlemleri fonksiyon haline getirip coddan tasarruf yapıyoruz. böylelikle close() işlemine ihtiyacımız yok
-with open("dosya-yonetimi.txt","r",encoding="utf-8") as dosya:
-    cikti=dosya.read()
-    print(cikti)
-    print("--------")
-    dosya.seek(5) # imleci istediğin yere konumlandırır   #  imleci 5.harfin önüne konumlandırır.
-    print(dosya.tell()) # imlecin konumunu belirtir.
-    print("---------")
-    cikti2=dosya.read()
-    print(cikti2)
+#with open("dosya-yonetimi.txt","r",encoding="utf-8") as dosya:
+#    cikti=dosya.read()
+#    print(cikti)
+#    print("--------")
+#    dosya.seek(5) # imleci istediğin yere konumlandırır   #  imleci 5.harfin önüne konumlandırır.
+#    print(dosya.tell()) # imlecin konumunu belirtir.
+#    print("---------")
+#    cikti2=dosya.read()
+#    print(cikti2)
+#################### sayfa başına ekleme
+#with open("dosya-yonetimi.txt","r+",encoding="utf-8") as dosya: # r+ ---> hem yazma hemde okuma işlemi için kullanılır
+#    dosya.write("deneme") # yazma işlemini imleçin olduğu yerden itibaren eski yazıların üzerine yazarak devam eder
+#
+################# sayfanın istenen yerine yazı yazma
+#with open("dosya-yonetimi.txt","r+",encoding="utf-8") as dosya:
+#    dosya.seek(15) # yazı imlecini istediğin yere getirip yazı yazabilirsin
+#    dosya.write("deneme")
+#
+################## sayfa sonuna ekleme
+#with open("dosya-yonetimi.txt","a",encoding="utf-8") as dosya:
+#    dosya.write("deneme")
+################## sayfa başına ekleme
+#with open("dosya-yonetimi.txt","r+",encoding="utf-8") as dosya:
+#    degisken=dosya.read()
+#    degisken="merhabalar\n"+degisken # bu kısımda yazdığın yazı sonda veya başta olabilir
+#    dosya.seek(0) # bunu eklemezsen bütün yazıyı tekrar yazar
+#    dosya.write(degisken)
+with open("dosya-yonetimi.txt","r+",encoding="utf-8") as dosya:
+    liste=dosya.readlines()
+    liste.insert(1,"yeni eklenen metin\n") # girilen index numarasından önce ekleme işlemi yapıyor
+    dosya.seek(0)
+    dosya.writelines(liste)
