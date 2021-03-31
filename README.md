@@ -17,3 +17,25 @@ Takip etmiş olduğum diğer web siteleri;
 
 {% file src=".gitbook/assets/pythonnotesforprofessionals.pdf" caption="856 sayfalık döküman" %}
 
+Herşeyin başında olan bir kişi öncelikle çalışma ortamını oluşturması gerekir. Aşağıdaki linklerden gerekli programları kurabilirsiniz.
+
+{% hint style="info" %}
+[https://www.jetbrains.com/pycharm/download/\#section=windows](https://www.jetbrains.com/pycharm/download/#section=windows)
+
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
+{% endhint %}
+
+Yüklemiş olduğun python versiyon bilgisini cmd ekranından 3 farklı şekilde kontrol edebilirsin.
+
+```text
+python --version
+python3 --version
+py --version
+```
+
+cmd ekranından kısa denemeler yapabilirsin.
+
+![ilk ad&#x131;m](.gitbook/assets/ekran-alintisi.png)
+
+b
+
