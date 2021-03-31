@@ -1,0 +1,8 @@
+# Değişkenler
+
+string
+
+integer
+
+
+
