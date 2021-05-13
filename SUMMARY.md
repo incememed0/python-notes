@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Giriş](README.md)
+* [INTRO](README.md)
 * [Değişkenler](degiskenler.md)
 

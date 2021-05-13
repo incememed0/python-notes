@@ -1,10 +1,12 @@
 ---
 description: >-
-  Kendi çabalarımla oluşturduğum notlarımı şimdi herkes faydalanabilsin diye
-  yayınlamaktayım.
+  I am now publishing my notes, which I created with my own efforts, so that
+  everyone can benefit.
 ---
 
-# Giriş
+# INTRO
+
+My website: .....
 
 iletişim: [linkedin.com/in/ercanatar/](https://www.linkedin.com/in/ercanatar/)
 
@@ -16,7 +18,9 @@ Hazırlamış olduğum notların tamamını ve daha fazlasını kendi github say
 
 Takip etmiş olduğum dökümanlar ve web siteleri;  
 [https://www.w3schools.com/python/default.asp](https://www.w3schools.com/python/default.asp)  
-[mustafamuratcoskun/Sifirdan-Ileri-Seviyeye-Python-Programlama/tree/master/](https://nbviewer.jupyter.org/github/mustafamuratcoskun/Sifirdan-Ileri-Seviyeye-Python-Programlama/tree/master/)
+[mustafamuratcoskun/Sifirdan-Ileri-Seviyeye-Python-Programlama/tree/master/](https://nbviewer.jupyter.org/github/mustafamuratcoskun/Sifirdan-Ileri-Seviyeye-Python-Programlama/tree/master/)  
+[https://python-istihza.yazbel.com/](https://python-istihza.yazbel.com/)  
+[https://www.w3schools.com/python/exercise.asp?filename=exercise\_strings3](https://www.w3schools.com/python/exercise.asp?filename=exercise_strings3)
 
 {% file src=".gitbook/assets/pythonnotesforprofessionals.pdf" caption="856 sayfalık döküman" %}
 
